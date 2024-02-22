@@ -33,13 +33,13 @@ public class Q_10 {
         Employee[] employees = new Employee[5];
 
         // Accepting data for five objects
-        for (int i = 0; i < 1; i++) {
-            System.out.println("Enter Employee ID for employee " + (i + 1) + ":");
+        for (int i = 0; i < 5; i++) {
+            System.out.print("Enter Employee ID for employee " + (i + 1) + ":");
             int empId = scanner.nextInt();
             scanner.nextLine(); // Consume newline
-            System.out.println("Enter Name for employee " + (i + 1) + ":");
+            System.out.print("Enter Name for employee " + (i + 1) + ":");
             String name = scanner.nextLine();
-            System.out.println("Enter Salary for employee " + (i + 1) + ":");
+            System.out.print("Enter Salary for employee " + (i + 1) + ":");
             double salary = scanner.nextDouble();
             scanner.nextLine(); // Consume newline
 

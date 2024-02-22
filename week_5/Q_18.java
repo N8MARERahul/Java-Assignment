@@ -18,10 +18,9 @@ public class Q_18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Side of a Square: ");
-        int side = sc.nextInt();
+        double side = sc.nextDouble();
         sc.close();
         Square sq = new Square(side);
         System.out.println("Area: " + sq.area());
     }
 }
-//testing

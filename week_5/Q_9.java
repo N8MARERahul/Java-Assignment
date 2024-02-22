@@ -28,10 +28,10 @@ public class Q_9 {
 
         // Accepting data for five objects
         for (int i = 0; i < 5; i++) {
-            System.out.println("Enter cost for tender " + (i + 1) + ":");
+            System.out.print("Enter cost for tender " + (i + 1) + ":");
             double cost = scanner.nextDouble();
             scanner.nextLine(); // Consume newline
-            System.out.println("Enter company name for tender " + (i + 1) + ":");
+            System.out.print("Enter company name for tender " + (i + 1) + ":");
             String companyName = scanner.nextLine();
 
             tenders[i] = new Tender(cost, companyName);
