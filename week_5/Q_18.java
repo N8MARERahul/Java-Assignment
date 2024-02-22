@@ -24,3 +24,4 @@ public class Q_18 {
         System.out.println("Area: " + sq.area());
     }
 }
+//testing
